@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>支付-邀请你一起来造作，我们的生活史</title>
+		<script src="./js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/payBase.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="./font-awesome-4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/payMaster.css"/>
+	</head>
+	<body>
+		<!-- 顶部导航 -->
+		<div id="header_top">
+			<div id="header_top_left">
+				<a id="logo" href=""></a>
+				<ul>
+					<li>
+						<a id="a1" href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="productList.html">全屋系列</a>
+					</li>
+					<li>
+						<a href="">沙发·椅凳</a>
+					</li>
+					<li>
+						<a href="">柜架</a>
+					</li>
+					<li>
+						<a href="">床·床具</a>
+					</li>
+					<li>
+						<a href="">桌几</a>
+					</li>
+					<li>
+						<a href="">灯具</a>
+					</li>
+					<li>
+						<a href="">家纺·床品</a>
+					</li>
+					<li>
+						<a href="">装饰·收纳</a>
+					</li>
+					<li>
+						<a href="">餐具·水具</a>
+					</li>
+				</ul>
+			</div>
+			<div id="header_top_right">
+				<ul>
+					<li>
+						<i></i>
+						<a class="aa" href="">实体店</a>
+					</li>
+					<li>
+						<a class="aa" href="">了解造作新家</a>
+					</li>
+					<li>
+						<a class="aa" href="">商业合作</a>
+					</li>
+					<li>
+						<a id='a1' href="login.html"></a>
+					</li>
+					<li>
+						<a id='a2' href="cart.html"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- 顶部子导航 -->
+		<div id="header_topA">
+			<div class="subnav_top">
+				<ul>
+					<li><a href="">全部</a></li>
+					<li><a href="">美术馆系列</a></li>
+					<li><a href="">画板系列</a></li>
+					<li><a href="">山雪系列</a></li>
+					<li><a href="">青山系列</a></li>
+					<li><a href="">cosmo系列</a></li>
+					<li><a href="">朱雀系列</a></li>
+				</ul>
+			</div>
+			<div class="subnav_top">
+				<ul>
+					<li><a href="">全部</a></li>
+					<li><a href="">沙发</a></li>
+					<li><a href="">休闲椅</a></li>
+					<li><a href="">椅凳</a></li>
+					<li><a href="">坐墩</a></li>
+				</ul>
+			</div>
+			<div class="subnav_top">
+				<ul>
+					<li><a href="">全部</a></li>
+					<li><a href="">电视柜</a></li>
+					<li><a href="">书柜·书架</a></li>
+					<li><a href="">衣柜</a></li>
+					<li><a href="">餐边柜</a></li>
+					<li><a href="">斗柜</a></li>
+					<li><a href="">鞋柜</a></li>
+					<li><a href="">玄关柜</a></li>
+					<li><a href="">床头柜</a></li>
+					<li><a href="">推车</a></li>
+					<li><a href="">置物架·储物格</a></li>
+					<li><a href="">衣帽架</a></li>
+				</ul>
+			</div>
+			<div class="subnav_top">
+				<ul>
+					<li><a href="">全部</a></li>
+					<li><a href="">床</a></li>
+					<li><a href="">床垫</a></li>
+					<li><a href="">床头柜</a></li>
+					<li><a href="">床尾凳</a></li>
+					<li><a href="">床品</a></li>
+					<li><a href="">被褥</a></li>
+					<li><a href="">枕芯</a></li>
+				</ul>
+			</div>
+			<div class="subnav_top">
+				<ul>
+					<li><a href="">全部</a></li>
+					<li><a href="">餐桌·书桌</a></li>
+					<li><a href="">茶几</a></li>
+					<li><a href="">书桌</a></li>
+					<li><a href="">梳妆台</a></li>
+				</ul>
+			</div>
+			<div class="subnav_top">
+				<ul>
+					<li><a href="">全部</a></li>
+					<li><a href="">地灯</a></li>
+					<li><a href="">吊灯</a></li>
+					<li><a href="">台灯</a></li>
+					<li><a href="">吸顶灯</a></li>
+					<li><a href="">夜灯</a></li>
+				</ul>
+			</div>
+			<div class="subnav_top">
+				<ul>
+					<li><a href="">全部</a></li>
+					<li><a href="">床品</a></li>
+					<li><a href="">被褥</a></li>
+					<li><a href="">枕芯</a></li>
+					<li><a href="">毛巾·浴巾</a></li>
+					<li><a href="">盖毯</a></li>
+					<li><a href="">地毯·地垫</a></li>
+					<li><a href="">抱枕·颈枕</a></li>
+					<li><a href="">围巾</a></li>
+				</ul>
+			</div>
+			<div class="subnav_top">
+				<ul>
+					<li><a href="">全部</a></li>
+					<li><a href="">墙镜</a></li>
+					<li><a href="">花瓶</a></li>
+					<li><a href="">摆件</a></li>
+					<li><a href="">收纳</a></li>
+					<li><a href="">装饰画</a></li>
+				</ul>
+			</div>
+			<div class="subnav_top">
+				<ul>
+					<li><a href="">全部</a></li>
+					<li><a href="">餐具</a></li>
+					<li><a href="">杯子</a></li>
+					<li><a href="">托盘·果盘</a></li>
+					<li><a href="">食品储物</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- 主体 -->
+		<div id="main">
+			<div id="main_left">
+				<div id="pay_way">
+					<div id="pay_way_title">
+						<span>支付方式</span>
+						<div></div>
+					</div>
+					<ul>
+						<li>
+							<input class="pay_input" id="pay_input1" type="checkbox" checked="true" />
+							<span>支付宝</span>
+							<i id="i1"></i>
+						</li>
+						<li>
+							<input class="pay_input" id="pay_input2" type="checkbox" />
+							<span>微信支付</span>
+							<i id="i2"></i>
+						</li>
+						<li>
+							<input class="pay_input" id="pay_input3" type="checkbox" />
+							<span>花呗分期</span>
+							<i id="i3"></i>
+						</li>
+					</ul>
+					<div id="pay_way_huabei">
+						<div id="pay_way_huabei_1">
+							<p>¥4216.80 X 3期</p>
+							<p class="small">含手续费¥94.80/期</p>
+						</div>
+						<div id="pay_way_huabei_2">
+							<p>¥2153.74 X 6期</p>
+							<p class="small">含手续费¥92.74/期</p>
+						</div>
+						<div id="pay_way_huabei_3">
+							<p>¥1107.78 X 12期</p>
+							<p class="small">含手续费¥77.28/期</p>
+						</div>
+					</div>
+				</div>
+				<div id="pay">
+					<div id="pay_title">
+						<span>支付</span>
+						<div></div>
+					</div>
+					<ul>
+						<li id="pay_zhifubao">
+							<h2>￥12366</h2>
+							<div class="sure">
+								确认支付
+							</div>
+						</li>
+						<li id="pay_wechat">
+							<h2>￥12366</h2>
+							<div id="ma">
+								<img src="./img/pay_2.png" >
+								<p id = 'p1'>微信扫码，立即支付</p>
+								<p>订单号：</p>
+								<p>7582631605487332342</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="main_right">
+				<div id="main_right_orderInfo">
+					<div class="main_right_orderInfo_title">
+						<span>订单信息</span>
+						<div></div>
+					</div>
+					<div id="main_right_orderInfo_goods">
+						<ul>
+							<li>
+								<img src="./img/productDetails/002.jpg" >
+								<div class="main_right_orderInfo_goods_info">
+									<p class="p1">美术馆餐桌 1.6米</p>
+									<p class="p2">×1</p>
+								</div>
+							</li>
+							<li>
+								<img src="./img/productDetails/002.jpg" >
+								<div class="main_right_orderInfo_goods_info">
+									<p class="p1">美术馆餐桌 1.6米</p>
+									<p class="p2">×1</p>
+								</div>
+							</li>
+							<li>
+								<img src="./img/productDetails/001.jpg" >
+								<div class="main_right_orderInfo_goods_info">
+									<p class="p1">美术馆餐桌 1.6米</p>
+									<p class="p2">×1</p>
+								</div>
+							</li>
+							<li>
+								<img src="./img/productDetails/001.jpg" >
+								<div class="main_right_orderInfo_goods_info">
+									<p class="p1">美术馆餐桌 1.6米</p>
+									<p class="p2">×1</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="main_right_address">
+					<div class="main_right_orderInfo_title">
+						<span>收货地址</span>
+						<div></div>
+					</div>
+					<p>程智勇 ／ 15621127386 ／ 山东 青岛 城阳区 城阳街道泰德苑</p>
+				</div>
+				<div id="main_right_invoiceInfo">
+					<div class="main_right_orderInfo_title">
+						<span>发票信息</span>
+						<div></div>
+					</div>
+					<p>不开发票</p>
+				</div>
+				<div id="main_right_remarks">
+					<div class="main_right_orderInfo_title">
+						<span>备注信息</span>
+						<div></div>
+					</div>
+					<p>无</p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 页脚 -->
+		<div id="footer">
+			<div id="fot">
+				<div id="fot_top">
+					<div id="fot_top_left">
+						<a href="">
+							<img src="./img/index/ia_10034.png">
+							<span id="">zaozuo.com</span>
+						</a>
+						<div id="fot_top_left_icon">
+							<a id="weixin" href=""></a>
+							<a id="weibo" href=""></a>
+						</div>
+					</div>
+					<div id="fot_top_center">
+						<ul>
+							<li>
+								<p class="title">关于造作新家</p>
+								<a href="">团队介绍</a>
+								<a href="">设计师团</a>
+								<a href="">媒体报道</a>
+								<a href="">加入造作新家</a>
+								<a href="">Designer Hiring</a>
+							</li>
+							<li>
+								<p class="title">服务支持</p>
+								<a href="">服务保障</a>
+								<a href="">用户协议</a>
+								<a href="">物流售后服务</a>
+							</li>
+							<li>
+								<p class="title">商业合作</p>
+								<a href="">集合采购</a>
+								<a href="">伙伴加盟</a>
+								<a href="">品牌合作</a>
+								<a href="">媒体合作</a>
+								<a href="">设计师入驻</a>
+							</li>
+						</ul>
+					</div>
+					<div id="fot_top_right">
+						<div id="contact-us">
+							<p id="p1">联系我们</p>
+							<p id="p2">400-6636-926
+								<span>（9:00~21:00）</span>
+							</p>
+							<div id="kefu">
+								<a href="">在线客服</a>
+							</div>
+							<div id="shop-entry">
+								<a href="">
+									<span>造作新家全国实体店</span>
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="fot_bottom">
+					<p>Copyright © 2018 zaozuo.com Inc.All Rights Reserved. 北京造化科技有限公司</p>
+					<p>版权所有 京ICP备14049641号-1 增值电信业务经营许可证：京ICP证150098号</p>
+					<p>造作新家官网-全球设计师创作家居品牌</p>
+					<p>营业执照</p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 侧边栏 -->
+		<div id="sidebar">
+			<div id="sdb_3">
+				<a href=""></a>
+				<div id="">客服</div>
+			</div>
+			<div id="sdb_4">
+				<div id="img"></div>
+				<div id="top">回顶部</div>
+			</div>
+		</div>
+	</body>
+</html>

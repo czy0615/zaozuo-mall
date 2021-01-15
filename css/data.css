@@ -1,0 +1,104 @@
+/* 滚动导航 */
+.nva-block {
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+	position: fixed;
+	top: 0;
+	/* display: none; */
+	z-index: 99;
+}
+
+.nva-block ul li {
+	float: right;
+	width: 80px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.nva-block ul li>a {
+	color: white;
+}
+
+.nva-block ul .img1 {
+	width: 50px;
+	margin-right: 80px;
+}
+
+.nva-block ul .img2 {
+	width: 50px;
+}
+
+.nva-block ul li>img {
+	width: 25px;
+	height: 25px;
+	margin-top: 15px;
+}
+
+/* 滚动导航内下拉列表 */
+.nva-block>.list1 {}
+
+.nva-block>.list1>ul>.li11 {
+	width: 70px;
+	height: 50px;
+	color: #fff;
+	font-size: 13px;
+	float: left;
+	text-align: center;
+}
+
+.nva-block>.list1>ul>ol {
+	width: 70px;
+	height: 50px;
+	color: #fff;
+	line-height: 50px;
+	font-size: 14px;
+	float: left;
+	text-align: center;
+}
+
+.nva-block>.list1>ul>li:hover {
+	cursor: pointer;
+}
+
+.nva-block .tab1 {
+	width: 100%;
+	height: 50px;
+	line-height: 36px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	z-index: 99;
+	display: none;
+	text-align: center;
+	background-color: #000;
+	opacity: 0.8;
+}
+
+.nva-block .tab1:first-child {
+	/* display: block; */
+}
+
+.nva-block .tab1>ul {
+	display: inline-block;
+	text-align: center;
+}
+
+.nva-block .tab1>ul>li {
+	width: 100px;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	text-align: center;
+}
+
+.nva-block .tab1>ul>li:hover {
+	opacity: 0.8;
+}
+
+.nva-block .tab1>ul>li:hover {
+	cursor: pointer;
+}

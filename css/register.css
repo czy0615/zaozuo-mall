@@ -1,0 +1,207 @@
+/* 滚动导航 */
+.nva-block {
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+}
+
+.nva-block ul li {
+	float: right;
+	width: 80px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.nva-block ul li>a {
+	color: white;
+}
+.nva-block ul .img1{
+	width: 50px;
+	margin-right: 80px;
+}
+.nva-block ul .img2{
+	width: 50px;
+}
+.nva-block ul li>img{
+	width: 25px;
+	height: 25px;
+	margin-top: 15px;
+}
+/* 滚动导航内下拉列表 */
+.nva-block>.list1 {
+	
+}
+.nva-block>.list1>ul>.li11 {
+	width: 70px;
+	height: 50px;
+	color: #fff;
+	font-size: 13px;
+	float: left;
+	text-align: center;
+}
+.nva-block>.list1>ul>ol {
+	width: 70px;
+	height: 50px;
+	color: #fff;
+	line-height: 50px;
+	font-size: 14px;
+	float: left;
+	text-align: center;
+}
+.nva-block>.list1>ul>li:hover{
+	cursor: pointer;
+}
+.nva-block .tab1 {
+	width: 100%;
+	height: 50px;
+	line-height: 36px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	z-index: 99;
+	text-align: center;
+	background-color: #000;
+	opacity: 0.8;
+}
+.nva-block .tab1>ul{
+	display: inline-block;
+	text-align: center;
+}
+.nva-block .tab1>ul>li{
+	width: 100px;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	text-align: center;
+}
+.nva-block .tab1>ul>li:hover{
+	opacity: 0.8;
+}
+.nva-block .tab1>ul>li:hover{
+	cursor: pointer;
+}
+.backGround{
+	width: 100%;
+	height: 820px;
+	background: url(../img/logIn/ia_10001.jpg) no-repeat center center;
+}
+
+
+/* 登录表 */
+.fix-form{
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 540px;
+	height: 528px;
+	
+	background-color: white;
+}
+.fix-form .logIn-ul{
+	width: 360px;
+	height: 21px;
+	margin: 100px auto;
+}
+.fix-form .logIn-ul>.fast{
+	width: 360px;
+	height: 21px;
+	text-align: center;
+	line-height: 21px;
+	font-size: 21px;
+	font-weight: 500;
+	color: #000;
+}
+.fix-form .cot{
+	width: 360px;
+	height: 243px;
+	margin-left: 100px;
+	position: relative;
+}
+.fix-form .in-form {
+	width: 360px;
+	height: 243px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.fix-form .in-form .input-tel{
+	width: 360px;
+	height: 42px;
+	border: none;
+	padding-left: 4px;
+	color: #313131;
+	font-size: 14px;
+	outline: none;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #909090;
+}
+.fix-form .in-form .warn-tel{
+	margin-bottom: 20px;
+	margin-left: 20px;
+	display: none;
+	color: red;
+}
+.fix-form .in-form .input-text{
+	width: 219px;
+	height: 42px;
+	border: none;
+	padding-left: 4px;
+	color: #313131;
+	font-size: 14px;
+	outline: none;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #909090;
+}
+.fix-form .in-form .auth-code{
+	width: 120px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	color: white;
+	margin-left: 11px;
+	background-color: #d2d2d2;
+	display: inline-block;
+}
+.fix-form .in-form .logIn-btn{
+	width: 360px;
+	height: 48px;
+	border: none;
+	outline: none;
+	text-align: center;
+	line-height: 38px;
+	color: white;
+	margin-top: 30px;
+	background-color: #d2d2d2;
+}
+.fix-form .in-form .form-t{
+	text-align: center;
+	padding: 20px;
+	font-size: 16px;
+}
+.fix-form .in-form .form-t>a{
+	color: #000;
+}
+.fix-form .in-form .form-t>a:hover{
+	opacity: 0.5;
+}
+.fa-angle-left:before{
+	color: #a0a0a0;
+	font-size: 30px;
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	cursor: pointer;
+}
+.fix-form .in-form .warn-txt{
+	margin-bottom: 20px;
+	margin-left: 20px;
+	display: none;
+	color: red;
+}
